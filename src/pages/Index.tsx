@@ -44,7 +44,7 @@ const Index = () => {
   };
 
   if (currentScreen === 'game') {
-    return <GameScreen gameMode={gameMode} onBackToMenu={handleBackToMenu} />;
+    return <GameScreen gameMode={gameMode} onBackToMenu={handleBackToMenu} initialTokens={tokens} />;
   }
 
   return (
