@@ -61,7 +61,7 @@ const Index = () => {
           {/* Header */}
           <div className="text-center py-8">
             <h1 className="text-6xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
-              Cricket Arena Masters
+              Monad Arena Masters
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Experience the ultimate cricket gaming with token rewards. Play matches, score runs, and earn MON tokens!
