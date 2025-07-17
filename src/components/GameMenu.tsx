@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 interface GameMenuProps {
   onStartGame: (mode: string) => void;
+  hasClaimedTokens?: boolean;
 }
 
 export const GameMenu: React.FC<GameMenuProps> = ({ onStartGame }) => {
