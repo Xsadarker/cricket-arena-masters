@@ -7,7 +7,6 @@ interface TokenDisplayProps {
   className?: string;
   showClaim?: boolean;
   onClaim?: () => void;
-  hasClaimed?: boolean;
 }
 
 export const TokenDisplay: React.FC<TokenDisplayProps> = ({
